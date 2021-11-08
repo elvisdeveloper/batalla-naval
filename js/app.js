@@ -7,7 +7,7 @@ window.onload = function () {
     var misiles = 30
     loadCaja('misiles',misiles)
 
-    var barcos = 10
+    var barcos = 3
     loadCaja('barcos',barcos)
 
     var btnExit = document.getElementById('exit');
@@ -26,12 +26,12 @@ window.onload = function () {
 function createTable(){
 
     var container = document.getElementById('container')
-    var barcos = 5;
-    for (var f = 0; f < 15; f++) {
+    var barcos = 3;
+    for (var f = 0; f < 10; f++) {
         var row = document.createElement('div')
         row.setAttribute('class', 'row')
 
-        for (var c = 0; c < 15; c++) {
+        for (var c = 0; c < 5; c++) {
             
             var col = document.createElement('div')
             col.setAttribute('class', 'col bg-light p-3')
