@@ -69,7 +69,7 @@ function handleDisparo(div){
 
         if (div.id=='true') {
             
-            var audio = new Audio(directory+"/audio/audio.mp3");
+            var audio = new Audio("/audio/audio.mp3");
             audio.play()
             
                 alert('Exelente disparo!!')
@@ -88,7 +88,7 @@ function handleDisparo(div){
         else{
             if (div.id!='boom' && div.id!="fallaste") {
                 
-                var audio = new Audio(directory+"/audio/audio.mp3");
+                var audio = new Audio("/audio/audio.mp3");
                 audio.play()
                 updateCaja('misiles', totalMisiles-1 )
                 div.setAttribute('id', 'fallaste');
