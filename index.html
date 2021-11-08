@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./css/app.css">
+    <script src="./js/app.js"></script>
+    <title>Batalla Naval</title>
+</head>
+<body>
+
+    <div class="container mt-1">
+        <div class="row bg-secondary">
+            <div class="col-4">
+                <h2>Batalla Naval</h2>
+            </div>
+            <div class="offset-7 col">
+                <button class="btn btn-danger" id="exit">Salir</button>
+            </div>
+        </div>
+           <div class="row bg-info">
+                <div class="col-4">
+                    <h4>Misiles: <span id="misiles"></span> </h4>
+                </div>
+                <div class="col-4">
+                <h4>Barcos: <span id="barcos"></span> </h4>
+                </div>
+           </div>
+          
+        <div class="row justify-content-center" id="cardInicio">  
+            <div class="card col-6 mt-1" style="width: 18rem;">
+                <a href="./images/imagen1.jpeg" target="__blank">
+                    <img class="card-img-top" src="./images/imagen.jpeg" alt="Card image cap">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">Batalla Naval</h5>
+                    <p class="card-text">Preparate para la batalla mas desafiante de la historia!!.</p>
+                    <button class="btn btn-primary" id="play">Jugar</button>
+                </div>
+            </div>
+        </div>
+        
+     </div>
+
+    <div class="container my-3" id="container"></div><!-- para mostrar el tablero de juego -->
+</body>
+</html>
